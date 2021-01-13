@@ -33,3 +33,8 @@ def join_string(string_1, string_2):
     return string_1 + string_2
 
 join_string("Mary had a little lamb, ", "its fleece was white as snow")
+
+def add_string_as_number(numero_1, numero_2):
+    return int(numero_1) + int(numero_2)
+
+add_string_as_number("1", "2")
