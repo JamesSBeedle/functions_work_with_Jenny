@@ -12,3 +12,8 @@ def subtract(number_1, number_2):
 
 subtract(10, 5)
 
+
+def multiply(number_1, number_2):
+    return number_1 * number_2
+
+multiply(4, 2)
