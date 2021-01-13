@@ -24,7 +24,12 @@ def divide(number_1, number_2):
 
 divide(10, 2)
     
-def length_of_string(self):
-    return len(self)
+def length_of_string(string):
+    return len(string)
 
 length_of_string("A string of length 21")
+
+def join_string(string_1, string_2):
+    return string_1 + string_2
+
+join_string("Mary had a little lamb, ", "its fleece was white as snow")
