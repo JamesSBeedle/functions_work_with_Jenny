@@ -27,21 +27,30 @@ divide(10, 2)
 def length_of_string(string):
     return len(string)
 
-length_of_string("A string of length 21")
+
 
 def join_string(string_1, string_2):
     return string_1 + string_2
 
-join_string("Mary had a little lamb, ", "its fleece was white as snow")
+
 
 def add_string_as_number(numero_1, numero_2):
     return int(numero_1) + int(numero_2)
 
-add_string_as_number("1", "2")
 
-def number_to_full_month_name(number):
-    import datetime
-    number_to_full_month_name = datetime.datetime.now()
-    return number_to_full_month_name.strftime('%B') 
 
-number_to_full_month_name(1)
+# def number_to_full_name_month_1(number):
+#     import datetime
+#     number_to_full_month_name = datetime.datetime.now()
+#     return number_to_full_name_month_1.strftime('%B') 
+
+months = {1: "January", 3: "March", 9: "September", 10: "October", 4: "April"}
+def number_to_full_month_name(month_number):
+    return months[month_number]
+
+
+def number_to_short_month_name(month_number):
+    short_month = number_to_full_month_name(month_number)[0:3]
+    return short_month
+
+
