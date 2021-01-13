@@ -38,3 +38,10 @@ def add_string_as_number(numero_1, numero_2):
     return int(numero_1) + int(numero_2)
 
 add_string_as_number("1", "2")
+
+def number_to_full_month_name(number):
+    import datetime
+    number_to_full_month_name = datetime.datetime.now()
+    return number_to_full_month_name.strftime('%B') 
+
+number_to_full_month_name(1)
