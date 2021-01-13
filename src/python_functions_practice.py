@@ -17,3 +17,14 @@ def multiply(number_1, number_2):
     return number_1 * number_2
 
 multiply(4, 2)
+
+
+def divide(number_1, number_2):
+    return number_1 / number_2
+
+divide(10, 2)
+    
+def length_of_string(self):
+    return len(self)
+
+length_of_string("A string of length 21")
